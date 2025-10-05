@@ -8,7 +8,7 @@ Delivering a robust, fully serverless contact form pipeline powered by **AWS Lam
 
 ### 1. Solution Architecture
 
-![Serverless Contact Form Architecture](image1.png)
+![Serverless Contact Form Architecture](https://github.com/Naveen15github/Serverless-Contact-Form-API-Lambda-DynamoDB-with-Terraform/blob/e7a66c97a3980e792c4abfbcda7a293acc9ebee5/Gemini_Generated_Image_k7tvapk7tvapk7tv.png)
 
 *This diagram illustrates the end-to-end flow: form submissions from a static site are processed by a Lambda function and stored in DynamoDB, with all infrastructure provisioned using Terraform.*
 
@@ -16,7 +16,7 @@ Delivering a robust, fully serverless contact form pipeline powered by **AWS Lam
 
 ### 2. Terraform Deployment in Action
 
-![Terraform Apply Output](image2.png)
+![Terraform Apply Output](https://github.com/Naveen15github/Serverless-Contact-Form-API-Lambda-DynamoDB-with-Terraform/blob/e7a66c97a3980e792c4abfbcda7a293acc9ebee5/Screenshot%20(56).png)
 
 *Terraform provisions all resources automatically, including IAM roles, DynamoDB, Lambda, and API Gateway, ensuring reproducibility and automation.*
 
@@ -24,7 +24,7 @@ Delivering a robust, fully serverless contact form pipeline powered by **AWS Lam
 
 ### 3. Frontend Contact Form Example
 
-![Contact Form Frontend](image3.png)
+![Contact Form Frontend](https://github.com/Naveen15github/Serverless-Contact-Form-API-Lambda-DynamoDB-with-Terraform/blob/e7a66c97a3980e792c4abfbcda7a293acc9ebee5/Screenshot%20(58).png)
 
 *A simple HTML contact form deployed to S3, ready to POST submissions to the serverless backend.*
 
@@ -32,7 +32,7 @@ Delivering a robust, fully serverless contact form pipeline powered by **AWS Lam
 
 ### 4. DynamoDB Table: ContactFormEntries
 
-![DynamoDB Table](image4.png)
+![DynamoDB Table](https://github.com/Naveen15github/Serverless-Contact-Form-API-Lambda-DynamoDB-with-Terraform/blob/e7a66c97a3980e792c4abfbcda7a293acc9ebee5/Screenshot%20(60).png)
 
 *DynamoDB table “ContactFormEntries” showing active status and the schema used to store submissions.*
 
@@ -40,7 +40,7 @@ Delivering a robust, fully serverless contact form pipeline powered by **AWS Lam
 
 ### 5. DynamoDB Table Scan Result
 
-![DynamoDB Table Scan Result](image5.png)
+![DynamoDB Table Scan Result](https://github.com/Naveen15github/Serverless-Contact-Form-API-Lambda-DynamoDB-with-Terraform/blob/e7a66c97a3980e792c4abfbcda7a293acc9ebee5/Screenshot%20(61).png)
 
 *This screenshot shows the AWS DynamoDB Console with the "ContactFormEntries" table selected. The "Explore items" section displays a scan result with one record, including the fields: email, message, name, and timestamp. The scan is successful, indicating the contact form data has been stored as expected.*
 
@@ -48,7 +48,7 @@ Delivering a robust, fully serverless contact form pipeline powered by **AWS Lam
 
 ### 6. DynamoDB Live Item Count Dialog
 
-![DynamoDB Live Item Count](image6.png)
+![DynamoDB Live Item Count](https://github.com/Naveen15github/Serverless-Contact-Form-API-Lambda-DynamoDB-with-Terraform/blob/e7a66c97a3980e792c4abfbcda7a293acc9ebee5/Screenshot%202025-10-05%20224837.png)
 
 *This image displays the "Get live item count" popup in the DynamoDB Console. It shows a completed scan operation, indicating there is currently 1 item in the table. The dialog warns that scanning large tables may consume extra read capacity and is mainly for informational or development use.*
 
