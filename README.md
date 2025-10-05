@@ -54,7 +54,7 @@ Delivering a robust, fully serverless contact form pipeline powered by **AWS Lam
 
 ---
 
-## 🚀 Step-by-Step Deployment Guide
+## 🚀 Step-by-Step Deployment 
 
 ### Step 1: Lambda Function
 
